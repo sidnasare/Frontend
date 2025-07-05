@@ -1,0 +1,9 @@
+# Ignore CRA sources and node deps during deploy
+src/**
+node_modules/**
+package.json
+package-lock.json
+README*
+.git/**
+
+# gcloud automatically ignores .git, .gitignore and .gcloudignore themselves
